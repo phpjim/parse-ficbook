@@ -1,0 +1,21 @@
+{
+    "name": "phpjim/parse-ficbook",
+    "description": "Parse content of site",
+    "type": "library",
+    "keywords": ["parse"," ficbook"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "phpJIM developers",
+            "email": "info@phpjim.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpjim\\parsers\\ficbook\\": ""
+        }
+    }
+}
